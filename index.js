@@ -2,7 +2,7 @@ const dbGeneratorBtn = document.getElementById("db-generator");
 const searchField = document.getElementById("search-field");
 const resultsEl = document.getElementById("results");
 const apiKey = "a66f0a26&s";
-const apiUrl = `http://www.omdbapi.com/?apikey=${apiKey}`;
+const apiUrl = `https://www.omdbapi.com/?apikey=${apiKey}`;
 
 async function getMovieData(imdbID) {
   const url = `${apiUrl}&i=${imdbID}`;
