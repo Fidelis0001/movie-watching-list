@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Find Your Film</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://cdn.europosters.eu/image/hp/80487.jpg"
+        alt="Background Image"
+      />
+      <h1>Find your film</h1>
+      <a href="watchlist.html">My Watchlist</a>
+    </header>
+    <section class="search-bar">
+      <input
+        type="text"
+        id="search-field"
+        placeholder="&#xF002;
+    Search for a movie title"
+        style="font-family: Arial, FontAwesome"
+      />
+      <button id="db-generator">Search</button>
+    </section>
+
+    <main id="results">
+      <section id="before-search">
+        <i
+          class="fa-regular fa-film"
+          style="
+            color: #dfdddd;
+            font-family: Arial, FontAwesome;
+            font-size: 5em;
+          "
+        ></i>
+        <h2 id="before-search-text">Start exploring</h2>
+      </section>
+    </main>
+    <script rel="script" src="index.js"></script>
+  </body>
+</html>
