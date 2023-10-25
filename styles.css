@@ -134,8 +134,10 @@ input:focus::placeholder {
 }
 .poster {
   height: 9rem;
+  width: 6.5rem;
   border-radius: 3px;
   box-shadow: 2px 0.5px 5px rgb(139, 140, 141);
+  object-fit: contain;
 }
 .search-data {
   display: column;
