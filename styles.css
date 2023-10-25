@@ -73,7 +73,6 @@ header a:focus {
   font-family: Inter, sans-serif;
   padding: 0.5em 1em;
   font-size: 0.8rem;
-
   z-index: 1;
 }
 
@@ -142,7 +141,6 @@ input:focus::placeholder {
 .search-data {
   display: column;
   justify-content: space-evenly;
-
   width: 100%;
 }
 
@@ -195,5 +193,36 @@ input:focus::placeholder {
 @media (min-width: 476px) {
   header {
     flex-direction: row;
+  }
+  #search-field,
+  #db-generator {
+    font-size: 1rem;
+  }
+  #before-search {
+    font-size: 1.5rem;
+  }
+  .movie-card-holder button {
+    font-size: 1.2rem;
+  }
+  .poster {
+    height: 10rem;
+    width: 7rem;
+  }
+  .movie-title {
+    font-size: 1.2rem;
+  }
+  #search-result-data p {
+    font-size: 0.9rem;
+  }
+
+  .small-font {
+    font-size: 0.85rem;
+  }
+
+  .small-font button {
+    font-size: 0.85rem;
+  }
+  .plot {
+    font-size: 0.9rem;
   }
 }
