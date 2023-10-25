@@ -209,7 +209,7 @@ input:focus::placeholder {
     width: 7rem;
   }
   .movie-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   #search-result-data p {
     font-size: 0.9rem;
@@ -224,5 +224,13 @@ input:focus::placeholder {
   }
   .plot {
     font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 750px) {
+  #results,
+  #list-results {
+    max-width: 80vw;
+    margin: 0 auto;
   }
 }
