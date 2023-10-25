@@ -43,9 +43,9 @@ function renderWatchlist() {
     `;
   });
 
-  document.getElementById("before-search").innerHTML = html;
-  document.getElementById("before-search").style.color = "#444444";
-  document.getElementById("before-search").classList.add("no-margin");
+  document.getElementById("list-results").innerHTML = html;
+  document.getElementById("list-results").style.color = "#444444";
+  document.getElementById("list-results").classList.add("no-margin");
 
   // Add event listeners to the "Remove" buttons
   const removeButtons = document.querySelectorAll(".remove-from-watchlist-btn");
@@ -73,6 +73,7 @@ function removeFromWatchlist(imdbID) {
 }
 
 // Wait for the DOM to be fully loaded
+
 document.addEventListener("DOMContentLoaded", function () {
   renderWatchlist(); // Render the watchlist when the page loads
 });
